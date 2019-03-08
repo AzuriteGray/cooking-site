@@ -1,0 +1,15 @@
+img {
+   max-height: 100%;
+    max-width: 100%;
+     
+}
+
+/*---------------------------------------header*/
+
+.header {
+    background-color:#40B66C;
+}
+
+.logo {
+    width: 499px
+}
