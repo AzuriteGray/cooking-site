@@ -4,12 +4,100 @@ img {
      
 }
 
+/*----------------------------------------color*/
+ .header-color{
+ background-color:#40B66C;
+ }
+
+
+/*-----------------------------------special paddings*/
+
+.inline-block {
+    display:inline-block;
+}
+
+.align-center{
+    text-align: center;
+}
+
 /*---------------------------------------header*/
 
+header {
+    margin: 0;
+}
+
 .header {
+    margin-left:50px;
+}
+
+#nav {
+    margin:0;
+}
+
+#nav li {
+    padding:0;
+}
+
+
+
+.logo {
+    height: 100%;
+}
+
+.nav-bar{
+    height:120px;
+    text-align: center;
+    padding: 0;
     background-color:#40B66C;
 }
 
-.logo {
-    width: 499px
+.nav-bar a{
+    width:100%;
+    text-decoration: none;
+    color:#ffffff;
+    height:120px;
 }
+
+.nav-bar span{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.hvr-sweep-to-top:before {
+    background: rgba(0,0,0, 0.2);
+    height: 120px;
+    
+}
+
+
+
+/*-------------------------------------------------picture*/
+
+
+.cutting-board {
+   width: 100%;
+   margin-bottom: 50px
+   
+}
+
+
+
+/*-----------------------------------------------recipes*/
+
+.recipe {
+    font-size: 24px;
+}
+
+/*----photo credit
+Logo made by me
+Cutting boardphoto Photo by Katie Smith on Unsplash
+Multiple plates Photo by Vernon Raineil Cenzon on Unsplash
+Hamburger Photo by Thomas Habr on Unsplash
+
+-----*/
