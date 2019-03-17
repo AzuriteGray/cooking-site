@@ -16,6 +16,7 @@
             <div class="col-md-4 logo">
             	<img src="/assets/images/logo.jpg"></img>
             </div>
+           
             </a>
             <div class="col-md-8 ">
             	<div class="row header-color">
@@ -27,16 +28,16 @@
 				<div class=row>
                     <ul id="nav" class="list-inline clearfix">
                         <li class="col-xs-6 col-sm-3 nav-bar">
-                            <a href="index.html" class="hvr-sweep-to-top"><span>Home</span></a>
+                            <a href="Index.html" class="hvr-sweep-to-top"><span>Home</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 nav-bar">
-                            <a href="" class="hvr-sweep-to-top"><span>Recipe</span></a>
+                            <a href="#recipe" class="hvr-sweep-to-top"><span>Recipe</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 nav-bar ">
-                            <a href="" class="hvr-sweep-to-top"><span>About Us</span></a>
+                            <a href="#about" class="hvr-sweep-to-top"><span>About Us</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 nav-bar ">
-                            <a href="" class="hvr-sweep-to-top"><span>Contact</span></a>
+                            <a href="#contact" class="hvr-sweep-to-top"><span>Contact</span></a>
                         </li>
                     </ul>
                 </div>
@@ -45,34 +46,65 @@
 	</header>
 	
 	
-	<section>
+	<section class="container-fluid">
+		
 		<div class="row">
-			<div >
+			<div>
 			    <img class="col-xs-12 cutting-board" src="assets/images/Katie-smith.jpg"></img>
 			</div>
-		</div>
-	</section>
-	<section>
-	    <div class="row">
-	        <div class="col-md-4 align-center recipe">
-	            recipe 1
+		
+	</div>
+	<div class="row" >
+	<div class="recipe fullscreen">
+	        <div  class="col-md-4 align-center recipe">
+	            <a id="recipe"  href="Recipe1.html">Recipe 1</a>
 	        </div>
 	        <div class="col-md-4 align-center recipe">
-	            recipe 2
+	            <a href="Recipe2.html">Recipe 2</a>
 	        </div>
 	        <div class="col-md-4 align-center recipe">
-	            recipe 3
+	            <a href="Recipe3.html">Recipe 3</a>
 	       </div>
 	    </div>
+	</div>
+	<div class="row">
+	<div id="about" class="about fullscreen">
+			<div class=" vertical-center">
+	    <div  class="align-center">
+	        <h3>About us</h3>
+	        <div class="col-md-4"></div>
+	        <div class="col-md-4"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sed, delectus obcaecati perferendis ad velit quas cupiditate quidem! Officia inventore blanditiis ipsum necessitatibus, laudantium asperiores, corrupti odio magnam? Perspiciatis explicabo officia, ratione vero perferendis aliquam expedita laboriosam libero. A, totam consectetur illum doloremque autem explicabo quod sint amet, dolor numquam.</p></div>
+	   		<div class="col-md-4"></div>
+	    </div>
+	    </div>
+	    </div>
+	</div>
+	<div class="row">
+	<div id="contact" class="contact fullscreen">
+		<div class=" vertical-center">
+	    <div class="align-center"><h3>Contact us</h3></div>
+	    <p class="align-center">Got any questions or suggetions? </br> feel free to contact us</p>
+	    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address" required/>
+        <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Your suggestions and/or questions"></textarea>
+        <button type="submit" class="btn btn-secondary center-block">Send Email</button>
+    </div>
+    </div>
+    </div>
 	</section>
 	
 	
-	
-	
-	<footer>
-		<div class="row">
-			
+	<footer class="container-fluid">
+		
+		<div class="row footer">
+			<div class="col-md-6">
+				<p>bon apetite eet smakelijk smaklig måltid</p>
+			</div>
+			<div class="col-md-6">
+				..
+			</div>
 		</div>
+		
 	</footer>
 </body>
 </html>

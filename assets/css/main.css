@@ -8,8 +8,27 @@ img {
  .header-color{
  background-color:#40B66C;
  }
+ 
+ .recipe{
+background-color: #8FC19B; 
+     
+ }
+ 
+ .about{
+     background-color: #95D8B9;
+ }
+ 
+ .contact{
+ background-color:#21E8B2;
+}
 
+.footer{
+    background-color:#AFB0AF;
+}
 
+.ingredients{
+    background-color: #8FC19B;
+}
 /*-----------------------------------special paddings*/
 
 .inline-block {
@@ -19,6 +38,14 @@ img {
 .align-center{
     text-align: center;
 }
+
+.recipe{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+
+
 
 /*---------------------------------------header*/
 
@@ -75,15 +102,27 @@ header {
     
 }
 
+/*-----------------------------------------------------contact forms*/
 
+.form-control {
+   max-width: 50%;
+   margin:0 auto;
+}
+
+
+/*----------------------------------------------------ingredients list*/
+
+
+.ingredients{
+  
+}
 
 /*-------------------------------------------------picture*/
 
 
 .cutting-board {
-   width: 100%;
-   margin-bottom: 50px
-   
+    width: 100%;
+       
 }
 
 
@@ -101,3 +140,14 @@ Multiple plates Photo by Vernon Raineil Cenzon on Unsplash
 Hamburger Photo by Thomas Habr on Unsplash
 
 -----*/
+
+@media(min-width: 992px){
+    .fullscreen{
+        min-height: 800px;
+    }
+    
+    .vertical-center{
+     padding-top: 200px;
+    }
+}
+
