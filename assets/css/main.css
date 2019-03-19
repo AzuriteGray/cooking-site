@@ -1,8 +1,8 @@
-img {
-   max-height: 100%;
-    max-width: 100%;
-     
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700');
+
+
+img{ max-height: 100%; max-width: 100%}
+
 
 /*----------------------------------------color*/
  .header-color{
@@ -22,13 +22,14 @@ background-color: #8FC19B;
  background-color:#21E8B2;
 }
 
-.footer{
-    background-color:#AFB0AF;
+footer{
+    background-color:#40B66C;
 }
 
 .ingredients{
     background-color: #8FC19B;
 }
+
 /*-----------------------------------special paddings*/
 
 .inline-block {
@@ -55,6 +56,19 @@ header {
 
 .header {
     margin-left:50px;
+}
+
+
+.logo {
+    background :url("../images/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 189px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 }
 
 #nav {
@@ -107,14 +121,20 @@ header {
 .form-control {
    max-width: 50%;
    margin:0 auto;
+   margin-bottom: 5px;
+}
+
+.contact button{
+    margin-top: 15px
 }
 
 
 /*----------------------------------------------------ingredients list*/
 
 
-.ingredients{
-  
+.ingredients {
+    color: #fafafa;
+    min-height: 700px;
 }
 
 /*-------------------------------------------------picture*/
@@ -122,24 +142,67 @@ header {
 
 .cutting-board {
     width: 100%;
-       
+    margin:0px;
+    padding:0px;
 }
 
+/*--------------------------------------------step-by-step*/
+
+
+.step-by-step video{
+    margin-top: 30px;
+    margin-left:20%;
+}
 
 
 /*-----------------------------------------------recipes*/
 
-.recipe {
+.recipe a {
     font-size: 24px;
+    font-family: "monsterrat", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    
 }
 
-/*----photo credit
+.recipe img{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.recipe img:hover{
+    width: 250px;
+    height:250px;
+    transition: .5s;
+    
+}
+
+
+/*----------------------------------------------------footer*/
+
+footer p{
+    color:#fafafa;
+}
+
+footer a{
+    color:#fafafa;
+}
+
+
+
+/*------------------------------------------------photo credit
 Logo made by me
 Cutting boardphoto Photo by Katie Smith on Unsplash
-Multiple plates Photo by Vernon Raineil Cenzon on Unsplash
-Hamburger Photo by Thomas Habr on Unsplash
+Chocolate Mousse photo by Betty crocker
+Skagenröra photo from Receptfavoriter.se
+Pasta photo from Eatingwell.com
 
 -----*/
+
+
+/*------------------------------------media queries*/
 
 @media(min-width: 992px){
     .fullscreen{
@@ -148,6 +211,19 @@ Hamburger Photo by Thomas Habr on Unsplash
     
     .vertical-center{
      padding-top: 200px;
+    }
+}
+
+@media(max-width: 992px){
+    .step-by-step video{
+        margin-left: 10px;
+    }
+}
+
+@media( max-width:768px){
+    .step-by-step video{
+        width:300px;
+        height: 200px;
     }
 }
 
