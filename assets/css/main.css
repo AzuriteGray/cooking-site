@@ -46,7 +46,10 @@ footer{
 }
 
 
-
+.right{
+    text-align: right;
+    margin-right: 10px;
+}
 
 /*---------------------------------------header*/
 
@@ -65,10 +68,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 189px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+    
 }
 
 #nav {
