@@ -5,9 +5,6 @@ img{ max-height: 100%; max-width: 100%}
 
 
 /*----------------------------------------color*/
- .header-color{
-     background-color:#40B66C;
- }
  
 .recipe {
     background-color: #8FC19B; 
@@ -23,31 +20,12 @@ img{ max-height: 100%; max-width: 100%}
      background-color:#40B66C;
 }
 
-.recipes a {
-    font-size: 24px;
-    font-family: "monsterrat", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-    
-}
 
-.recipes img{
-    border-radius: 50%;
-}
-
-.recipes img:hover{
-    transition: .5s;
-    
-}
-
-
-
- 
- .about{
+.about {
      background-color: #95D8B9;
  }
  
- .contact {
+.contact {
      background-color:#21E8B2;
 }
 
@@ -59,7 +37,11 @@ footer {
     background-color: #8FC19B;
 }
 
-/*................................................navvar*/
+.step-by-step {
+    background-color:#95D8B9;
+}
+
+/*................................................navbar*/
 
 
 .navbar-header {
@@ -69,7 +51,16 @@ footer {
 
 .navbar-brand {
     height: 150px;
-    padding:0px;
+    padding: 0px;
+}
+
+.nav {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.navbar {
+    margin-bottom: 0px;
 }
 
 /*-----------------------------------special paddings*/
@@ -94,70 +85,7 @@ footer {
 }
 
 
-/*---------------------------------------header*/
 
-header {
-    margin: 0;
-}
-
-.header {
-    margin-left:50px;
-}
-
-
-.logo {
-    background :url("../images/logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 189px;
-   
-}
-
-#nav {
-    margin:0;
-}
-
-#nav li {
-    padding:0;
-}
-
-
-
-.logo {
-    height: 100%;
-}
-
-.nav-bar{
-    height:120px;
-    text-align: center;
-    padding: 0;
-    background-color:#40B66C;
-}
-
-.nav-bar a{
-    width:100%;
-    text-decoration: none;
-    color:#ffffff;
-    height:120px;
-}
-
-.nav-bar span{
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size:14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-.hvr-sweep-to-top:before {
-    background: rgba(0,0,0, 0.2);
-    height: 120px;
-    
-}
 
 /*-----------------------------------------------------contact forms*/
 
@@ -173,7 +101,7 @@ header {
 
 .ingredients {
     color: #fafafa;
-    min-height: 700px;
+    padding-bottom: 20px
 }
 
 /*-------------------------------------------------picture*/
@@ -185,6 +113,11 @@ header {
     padding:0px;
 }
 
+.pesto {
+    height: 447px;
+    width:450px;
+}
+
 /*--------------------------------------------step-by-step*/
 
 
@@ -193,10 +126,14 @@ header {
     margin-left:20%;
 }
 
+.step-by-step{
+    margin-bottom: 20px;
+}
 
 /*-----------------------------------------------recipes*/
 
-.recipe a {
+
+.recipes a {
     font-size: 24px;
     font-family: "monsterrat", sans-serif;
     font-weight: 300;
@@ -204,16 +141,11 @@ header {
     
 }
 
-.recipe img{
-    width: 200px;
-    height:200px;
+.recipes img{
     border-radius: 50%;
-    margin-bottom: 50px;
 }
 
-.recipe img:hover{
-    width: 250px;
-    height:250px;
+.recipes img:hover{
     transition: .5s;
     
 }
@@ -237,7 +169,7 @@ Cutting boardphoto Photo by Katie Smith on Unsplash
 Chocolate Mousse photo by Betty crocker
 Skagenröra photo from Receptfavoriter.se
 Pasta photo from Eatingwell.com
-
+4 plates photo by vernon raineil on uplash
 -----*/
 
 
@@ -249,14 +181,39 @@ Pasta photo from Eatingwell.com
     }
     
     .vertical-center{
-     padding-top: 200px;
+         padding-top: 200px;
     }
+    
+    .step-by-step {
+        min-height: 700px;
+    }
+    
+    .ingredients {
+        min-height: 700px;
+    }
+
 }
 
 @media(max-width: 992px){
+    
     .step-by-step video{
         margin-left: 10px;
     }
+    
+    
+    .nav {
+        font-size:20px;
+    }
+    
+    .navbar-brand {
+    height: 70px;
+    padding:0px;
+}
+
+    .navbar-header {
+    height:80px;
+}
+
 }
 
 @media( max-width:768px){

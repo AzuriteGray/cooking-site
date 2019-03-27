@@ -1,26 +1,16 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# Simple cooking site
 
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, we included a small hello world application.
-
-1) Open the hello-world.html file
-
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
+The idea for the site was to make a website with 3 dishes on it, a starter, a maincourse and an dessert.
+I chose this specific subject because of my background in cooking and it seemed like a nice starting point.
+I have also tried to do as much as possible with just HTML and CSS since I havnt learned anything about JavaScript yet
 
 
-## Support & Documentation
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+## UX
+
+The focus of the UX was to make it simple and straight forward
+
+you arrive on the site in the header you can see a link to the recipes, all recipes have a photo of the finished dish before you click on it and you can when you click on it you will be taken to a list of ingriedients and a step by step list
+
+
