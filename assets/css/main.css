@@ -12,7 +12,7 @@ img{ max-height: 100%; max-width: 100%}
  }
  
 .recipes {
-    background-color: #8FC198; 
+    background-color: #f5f5f5; 
     
 }
 
@@ -25,8 +25,8 @@ img{ max-height: 100%; max-width: 100%}
      background-color: #95D8B9;
  }
  
-.contact {
-     background-color:#21E8B2;
+.contact-wrapper {
+     background-color:#fcfcfc;
 }
 
 footer {
@@ -34,11 +34,11 @@ footer {
 }
 
 .ingredients {
-    background-color: #8FC19B;
+    background-color: #c5c5c5;
 }
 
 .step-by-step {
-    background-color:#95D8B9;
+    background-color:#f5f5f5;
 }
 
 /*................................................navbar*/
@@ -69,6 +69,10 @@ footer {
     display:inline-block;
 }
 
+.inline{
+    display:inline;
+}
+
 .align-center{
     text-align: center;
 }
@@ -84,17 +88,48 @@ footer {
     margin-right: 10px;
 }
 
+.margin-y {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 
+
+/*-----------------------------------------------------------About us*/
+
+.about{
+    background-image: url(../images/vernonraineil.jpg);
+    height:500px;
+    color:#FFFFFF;
+    
+}
+
+.about p{
+    font-size:15px;
+
+}
+
+.about h3{
+    font-weight: 700;
+}
 
 
 /*-----------------------------------------------------contact forms*/
 
 
 
+.contact{
+    background-color:#f5f5f5;
+    box-shadow: 0px 0px 5px rgba(100,100,100,0.3);
+}
+
 .contact button{
     margin-top: 15px
 }
 
+.contact form {
+    margin-top:20px;
+    margin-bottom: 30px;
+}
 
 /*----------------------------------------------------ingredients list*/
 
@@ -102,6 +137,11 @@ footer {
 .ingredients {
     color: #fafafa;
     padding-bottom: 20px
+}
+
+.ingredients-img {
+    margin-top: 30px;
+    height:400px;
 }
 
 /*-------------------------------------------------picture*/
@@ -113,10 +153,7 @@ footer {
     padding:0px;
 }
 
-.pesto {
-    height: 447px;
-    width:450px;
-}
+
 
 /*--------------------------------------------step-by-step*/
 
@@ -137,18 +174,16 @@ footer {
     font-size: 24px;
     font-family: "monsterrat", sans-serif;
     font-weight: 300;
-    color: #fafafa;
-    
+    color: #000000;
 }
 
 .recipes img{
     border-radius: 50%;
-}
-
-.recipes img:hover{
-    transition: .5s;
+    height:400px;
+    width: 400px;
     
 }
+
 
 
 /*----------------------------------------------------footer*/
@@ -185,11 +220,11 @@ Pasta photo from Eatingwell.com
     }
     
     .step-by-step {
-        min-height: 700px;
+        min-height: 720px;
     }
     
     .ingredients {
-        min-height: 700px;
+        min-height: 720px;
     }
 
 }
