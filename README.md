@@ -14,3 +14,48 @@ The focus of the UX was to make it simple and straight forward
 you arrive on the site in the header you can see a link to the recipes, all recipes have a photo of the finished dish before you click on it and you can when you click on it you will be taken to a list of ingriedients and a step by step list
 
 
+## Features
+
+### home page
+
+- navbar          - allows you to skip to certain parts of the home page
+- recipe links    - allows you to visit each recipe shown by name and photo
+- About us music  - lets you listen to spotify music while cooking
+
+### recipe pages
+
+- navbar          - lets you go back to homepage and the part of the homepage youd like to be at
+- video           - shows a video of food being sauteed
+
+
+## Technologies Used
+
+Bootstrap 3.3.7 from www.getbootstrap.com
+    to create the basic layout of the website
+    
+Java by bootstrap from www.getbootstrap.com
+    To make the website more mobile friendly
+    
+Java by Jquery from www.jquery.com
+    To make the bootstrap java work
+    
+## Testing
+
+
+
+## Deployment
+
+
+
+## credit
+
+
+Media
+
+Logo made by me
+Cutting boardphoto Photo by Katie Smith on Unsplash.com
+Chocolate Mousse photo by Betty crocker
+Skagenröra photo from Receptfavoriter.se
+Pasta photo from Eatingwell.com
+4 plates photo by vernon raineil on uplash.com
+Video by pixabay on pexels.com
