@@ -144,6 +144,10 @@ footer {
     height:400px;
 }
 
+.ingredients li {
+    list-style-type: none;
+}
+
 /*-------------------------------------------------picture*/
 
 
