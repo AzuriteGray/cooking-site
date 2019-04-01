@@ -41,21 +41,30 @@ Java by Jquery from www.jquery.com
     
 ## Testing
 
+Testing i have done
+- made sure there are no broken links
+- The forms give an error if not filled out correctly
+- photos and videos adjust size when needed
 
 
 ## Deployment
 
+Trough out the project i have done several pushes to github wich i have used for live deployment
 
+there are no diffrences between the deployed and develepment versions
 
 ## credit
 
+### Content
 
-Media
+The form code was taken directly from bootstrap and alterd for my purposes by myself
 
-Logo made by me
-Cutting boardphoto Photo by Katie Smith on Unsplash.com
-Chocolate Mousse photo by Betty crocker
-Skagenröra photo from Receptfavoriter.se
-Pasta photo from Eatingwell.com
-4 plates photo by vernon raineil on uplash.com
-Video by pixabay on pexels.com
+### Media
+
+- Logo made by me using https://hatchful.shopify.com/
+- Cutting boardphoto Photo by Katie Smith on Unsplash.com
+- Chocolate Mousse photo by Betty crocker
+- Skagenröra photo from Receptfavoriter.se
+- Pasta photo from Eatingwell.com
+- 4 plates photo by vernon raineil on uplash.com
+- Video by pixabay on pexels.com

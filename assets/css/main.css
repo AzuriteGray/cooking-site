@@ -253,12 +253,12 @@ Pasta photo from Eatingwell.com
     height:80px;
 }
 
+
+.recipes img{
+    height: 200px;
+    width: 200px;
+    
 }
 
-@media( max-width:768px){
-    .step-by-step video{
-        width:300px;
-        height: 200px;
-    }
 }
 
