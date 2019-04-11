@@ -204,6 +204,9 @@ footer a{
     color:#fafafa;
 }
 
+footer {
+    margin-top: 0px
+}
 
 /*------------------------------------------------photo credit
 Logo made by me
@@ -227,11 +230,11 @@ Pasta photo from Eatingwell.com
     }
     
     .step-by-step {
-        min-height: 720px;
+        min-height: 750px;
     }
     
     .ingredients {
-        min-height: 720px;
+        min-height: 750px;
     }
 
 }
