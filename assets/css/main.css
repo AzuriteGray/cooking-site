@@ -93,6 +93,10 @@ footer {
     margin-top: 50px;
 }
 
+.push {
+    min-height: 100%;
+}
+
 
 /*-----------------------------------------------------------About us*/
 
@@ -111,6 +115,7 @@ footer {
 .about h3{
     font-weight: 700;
 }
+
 
 
 /*-----------------------------------------------------contact forms*/
@@ -183,9 +188,8 @@ footer {
 
 .recipes img{
     border-radius: 50%;
-    height:400px;
-    width: 400px;
-    
+    height:450px;
+    width: 450px;
 }
 
 
@@ -199,7 +203,6 @@ footer p{
 footer a{
     color:#fafafa;
 }
-
 
 
 /*------------------------------------------------photo credit
@@ -247,18 +250,22 @@ Pasta photo from Eatingwell.com
     .navbar-brand {
     height: 70px;
     padding:0px;
-}
+    }
 
     .navbar-header {
     height:80px;
-}
+    }
 
 
-.recipes img{
+    .recipes img{
     height: 200px;
     width: 200px;
     
-}
+    }
+
+    .music{
+        height:90px;
+    }
 
 }
 
