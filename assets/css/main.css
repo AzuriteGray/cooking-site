@@ -128,12 +128,12 @@ footer {
 }
 
 .contact button{
-    margin-top: 15px
+    margin-top: 10px
 }
 
 .contact form {
-    margin-top:20px;
-    margin-bottom: 30px;
+    margin-top:15px;
+    margin-bottom: 25px;
 }
 
 /*----------------------------------------------------ingredients list*/
@@ -237,14 +237,10 @@ Pasta photo from Eatingwell.com
         min-height: 750px;
     }
 
+
 }
 
 @media(max-width: 992px){
-    
-    .step-by-step video{
-        margin-left: 10px;
-    }
-    
     
     .nav {
         font-size:20px;
@@ -270,5 +266,19 @@ Pasta photo from Eatingwell.com
         height:90px;
     }
 
+    .step-by-step {
+        padding-bottom:15px;
+    }
+
+    .step-by-step video{
+        margin-top: 30px;
+        margin-left:20%;
+        height: 70%;
+        width:60%;
+    }
+
+    footer {
+        margin-top:-20px;
+    }
 }
 
