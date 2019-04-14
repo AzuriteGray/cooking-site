@@ -93,10 +93,10 @@ footer {
     margin-top: 50px;
 }
 
-.push {
-    min-height: 100%;
-}
 
+.clear-left{
+    padding-left:200px;
+}
 
 /*-----------------------------------------------------------About us*/
 
